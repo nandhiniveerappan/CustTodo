@@ -1,0 +1,73 @@
+.custlist{
+width: 25%;
+float:left;
+background-color:  #eff5f5	;
+height: 100%;
+}
+
+.details{
+
+width: 35%;
+float:left;
+background-color: #cfe2e2	;
+height: 100%;
+
+}
+
+#pop{
+	float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+    background-color: #c7e8e7;
+    display: none;
+}
+}
+.todo{
+width: 40%;
+float:left;
+background-color:  #eff5f5	;
+height: 100%;
+
+}
+
+#searchinput{
+	width: 80%;
+}
+
+
+#iconimg {
+  height: 10px;
+}
+
+#add{
+		width: 50%;
+}
+.lab {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}​  
+
+
+ .uli{
+  background-color: #e0ebeb;
+	height:30px;
+	margin-left: 25px;
+}​  
+
+
+
+ul li a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover { 
+    background-color: #bfd9d9;
+
+}
+div form a {
+	text-decoration: none;
+	color: black;
+}
+

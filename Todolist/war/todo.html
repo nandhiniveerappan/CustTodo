@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title> Customer </title>
+<link rel="stylesheet" type="text/css" href="todo.css">
+</head>
+<body>
+	<center><h1> Customer </h1></center>
+<div class="custlist">
+	<center><h3> Customer list </h3></center>
+<center>  <button onclick="showForm()"> Add Customer: </button> </center> 
+<div id="popuplayout" class="popup"> 
+	<form id="pop" action="javascript:void(0);"> 
+		<input id="name1" type="text" placeholder="name" style="margin-top: 15px"> </br>
+        <input id="num1" type="text" placeholder="Phone"> </br>
+        <input id="email1" type= "text" placeholder="Email"> <br> 
+        <input id="address1" type="text" placeholder="Address"> <br>
+        <center><button onclick="savecust()"> save</button></center>
+       </form>
+</div>
+
+<p id="p1"> </p>
+ <ul classname="uli" id="ulist" style="list-style-type:none">
+ 	
+ </ul>
+</div>
+<div class="details">
+<form style="margin-left: 10px">
+<center> <h3> Details </h3> </center>
+<br>
+ 
+ <a href="#"> <label class="lab"> Name: </label> <input id="name2" type="text" placeholder="name"> <br> </a>
+ <a href="#"> <label class="lab"> Phone number : </label> <input id="num2" type="text"  placeholder="Phone" > <br></a>
+ <a href="#"> <label class="lab"> Email : </label> <input id="email2" type= "text" placeholder="Email"> <br> </a>
+ <a href="#"> <label class="lab"> Address: </label> <input id="address2" type="text" placeholder="Address"> <br> </a>
+ <br>
+ <center><button onclick="updateForm()"> Update </button></center>
+
+</form>
+</div>
+<div class="todo">
+	<center><h3> Todo list </h3> </center>
+	<center><input type="text" id="add1"><button onclick="addTodo()"> Add </button></center>
+	<ul id="ulist2" style="list-style-type:none">
+   
+ </ul>
+
+</div>
+<script src="custpage.js"></script>
+</body>
+</html>
