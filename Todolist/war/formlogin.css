@@ -1,0 +1,149 @@
+
+
+body{
+background: linear-gradient(to left, #ad338d , #e6b6de);
+}
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+.sign_form{
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  max-width: 300;
+  border-radius: 18px;
+  
+}
+
+.login_form{
+  
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  max-width: 300;
+  border-radius: 18px;
+  
+}
+
+#iconimg {
+  height: 21px;
+  margin-bottom: -5px;
+}
+.bg{
+    margin-top: 200;
+}
+
+.logbutton{
+  font-size: 14px;
+}
+.gbutton{
+
+      border-style: none;
+    background-color: rgb(226, 55, 55);
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 6px;
+    color: white;
+    width: 260px;
+    height: 37px;
+}
+
+
+
+
+#ip1 {
+  margin-top: 23px;
+  height: 37px;
+  width: 140px;
+  border-radius: 5px;    
+  border: 0px solid;
+  color: grey;
+  background-color: #fbe7f4;
+}
+#ip2{
+  margin-top: 23px;
+  height: 37px;
+  width: 140px;
+  border-radius: 5px; 
+  border: 0px solid;
+  color: grey;
+  background-color: #fbe7f4;
+}
+
+#ip3{
+      height: 37px;
+    margin-left: 0px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0px solid;
+    color: grey;
+    background-color: #fbe7f4;
+
+}
+
+#ip4{
+
+  height: 37px;
+  width: 140px;
+  border-radius: 5px; 
+  border: 0px solid;
+  color: grey;
+  background-color: #fbe7f4;
+
+}
+
+#ip5{
+
+   height: 37px;
+    margin-left: 0px;
+    width: 270px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0px solid;
+    color: grey;
+    background-color: #fbe7f4;
+}
+
+#ip6{
+height: 37px;
+    margin-left: 0px;
+    width: 270px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 0px solid;
+    color: grey;
+    background-color: #fbe7f4;
+
+}
+
+#sub{
+  
+    height: 37px;
+    width: 260px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 14px;
+    border-radius: 13px;
+    margin-top: 9px;
+    color: white;
+    margin-bottom: -3px;
+    border: 0px solid;
+    background-color: #50a9ef;
+}
+#sub1{
+  
+     height: 37px;
+    width: 260px;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 14px;
+    border-radius: 13px;
+    margin-top: 9px;
+    color: white;
+    margin-bottom: -3px;
+    border: 0px solid;
+    background-color: #50a9ef;
+}
+
