@@ -4,23 +4,77 @@ xmlns="http://java.sun.com/xml/ns/javaee"
 xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+
 	<servlet>
-		<servlet-name>TodolistServlet</servlet-name>
-		<servlet-class>com.example.Todolist.TodolistServlet</servlet-class>
+		<servlet-name>SignupServlet</servlet-name>
+		<servlet-class>com.example.Todolist.SignupServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>TodolistServlet</servlet-name>
-		<url-pattern>/TodolistServlet</url-pattern>
+		<servlet-name>SignupServlet</servlet-name>
+		<url-pattern>/signup</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>com.example.Todolist.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+		
+	<servlet>
+		<servlet-name>SaveCustServlet</servlet-name>
+		<servlet-class>com.example.Todolist.SaveCustServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SaveCustServlet</servlet-name>
+		<url-pattern>/savecustomer</url-pattern>
+	</servlet-mapping>
+		
+	<servlet>
+		<servlet-name>LoadContactServlet</servlet-name>
+		<servlet-class>com.example.Todolist.LoadContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoadContactServlet</servlet-name>
+		<url-pattern>/LoadCustomers</url-pattern>
+	</servlet-mapping> 
+	<servlet>
+		<servlet-name>UpdateContactServlet</servlet-name>
+		<servlet-class>com.example.Todolist.UpdateServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateContactServlet</servlet-name>
+		<url-pattern>/UpdateCust</url-pattern>
+	</servlet-mapping> 
+	<servlet>
+		<servlet-name>DeleteContactServlet</servlet-name>
+		<servlet-class>com.example.Todolist.DeleteContactServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteContactServlet</servlet-name>
+		<url-pattern>/DeleteContact</url-pattern>
 	</servlet-mapping>
 	<servlet>
-		<servlet-name>Logout</servlet-name>
+		<servlet-name>LogoutServlet</servlet-name>
 		<servlet-class>com.example.Todolist.LogoutServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Logout</servlet-name>
+		<servlet-name>LogoutServlet</servlet-name>
 		<url-pattern>/Logout</url-pattern>
 	</servlet-mapping>
+	<servlet>
+		<servlet-name>OauthServlet</servlet-name>
+		<servlet-class>com.example.Todolist.GoauthServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OauthServlet</servlet-name>
+		<url-pattern>/oauth2callback</url-pattern>
+	</servlet-mapping>
+	
 	<welcome-file-list>
-		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>
 </web-app>
