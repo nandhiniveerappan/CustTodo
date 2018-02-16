@@ -17,6 +17,7 @@ counter1=1;
 counter2=0;
 var key1;
 var arr=[];
+var currentCall = null; // used for ajax calls
 
 currentCustEmail = "";
 
@@ -241,10 +242,17 @@ function updateForm()
     jsObj.todoList =arr;
 	var jsonObj = JSON.stringify(jsObj);
 	
-	$.ajax({
+	   
+
+	currentCall = $.ajax({
 		url:'/UpdateCust',
 		type:'post',
 		data:'data='+jsonObj,
+		beforeSend : function()    {           
+	        if(currentCall != null) {
+	        	currentCall.abort();
+	        }
+	    },
 		success:function(data){
 			console.log("data in response of update "+data)
 			if((data=="updated")){

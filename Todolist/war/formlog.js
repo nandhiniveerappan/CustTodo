@@ -1,6 +1,6 @@
 var logmailid=document.getElementById("ip5");
 var logpwd=document.getElementById("ip6");
-var mailformat=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;  
 
 $('.sign_form').hide();
 $('.login_form').show();
@@ -25,10 +25,8 @@ $('.login_form').show();
 });
 
 function validateEmail() {
-		if(!(logmailid.value.match(mailformat)))  
-		{ 
-			window.alert("Please enter a valid email address");
-			return false;
-		}
+		
+		
 	}
+
 
